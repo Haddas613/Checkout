@@ -1,18 +1,15 @@
-# Instructions for candidates
+# Instructions
 
-This is the .NET version of the Payment Gateway challenge. If you haven't already read this [README.md](https://github.com/cko-recruitment/) on the details of this exercise, please do so now. 
+This is the .NET version of the Payment Gateway challenge. 
 
 ## Template structure
 ```
 src/
-    PaymentGateway.Api - a skeleton ASP.NET Core Web API
+    PaymentGateway.Api - a ASP.NET Core Web API
 test/
-    PaymentGateway.Api.Tests - an empty xUnit test project
-imposters/ - contains the bank simulator configuration. Don't change this
+    PaymentGateway.Api.Tests - NUnit test project
 
-.editorconfig - don't change this. It ensures a consistent set of rules for submissions when reformatting code
-docker-compose.yml - configures the bank simulator
-PaymentGateway.sln
-```
-
-Feel free to change the structure of the solution, use a different test library etc.
+This project is building a payment gateway
+E-Commerce is experiencing exponential growth and merchants who sell their goods or services online need a way to easily collect money from their customers.
+In this project I attempt to build a payment gateway, an API based application that will allow a merchant to offer a way for their shoppers to pay for their product.
+Processing a card payment online involves multiple steps and entities:
