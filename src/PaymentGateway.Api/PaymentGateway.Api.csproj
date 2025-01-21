@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DocumentationFile>C:\workspace\MyCheckoutImplementation\Checkout\payment-gateway-challenge-dotnet\src\PaymentGateway.Api\bin\Debug\net8.0\PaymentGateway.Api.xml</DocumentationFile>
   </PropertyGroup>
