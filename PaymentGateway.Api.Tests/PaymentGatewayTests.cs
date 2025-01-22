@@ -269,12 +269,5 @@ public class PaymentsControllerTests
         Assert.AreEqual("Card number is required.", problemDetails.Errors["CardNumber"][0]);
     }
     // Helper class to deserialize the problem details response
-    public class ProblemDetailsResponse
-    {
-        public string Type { get; set; }
-        public string Title { get; set; }
-        public int Status { get; set; }
-        public string TraceId { get; set; }
-        public Dictionary<string, string[]> Errors { get; set; }
-    }
+   
 }
